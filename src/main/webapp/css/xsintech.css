@@ -1,0 +1,71 @@
+.navbar-gradient {
+    background-color: #13161a;
+    background-image: -moz-linear-gradient(top, #13161a, #13161a);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#13161a), to(#13161a));
+    background-image: -webkit-linear-gradient(top, #13161a, #13161a);
+    background-image: -o-linear-gradient(top, #13161a, #13161a);
+    background-image: linear-gradient(to bottom, #000000, #666666);
+    background-repeat: repeat-x;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.line-spacing {
+	margin-top: 20px;
+}
+
+p.login-error-message {
+	color: red;
+	margin-left: 20px;
+}
+.alert-fixed-top {
+	-webkit-border-radius: 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px;
+	border-radius: 0 0 15px 15px;
+	left: 18%;
+	position: fixed;
+	right: 18%;
+	top: 0;
+	z-index: 2021;
+}
+
+.formErrorBorder {
+	border-color: red;
+}
+
+.img-home {
+	background: transparent url("../image/home1.PNG") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+.img-home-hover {
+	background: transparent url("../image/home2.PNG") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+@media screen and (max-device-width: 321px){
+	.header-left{
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: 61%;
+	}
+	.header-right{
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: 39%;
+	}
+}
+@media screen and (min-device-width: 322px) and (max-device-width: 413px){
+	.header-left{
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: 65%;
+	}
+	.header-right{
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: 35%;
+	}
+}

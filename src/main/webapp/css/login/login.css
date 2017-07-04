@@ -1,0 +1,95 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html, body {
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+	padding-top: 70px;
+}
+
+footer {
+	padding: 30px 0;
+}
+
+.navbar .btn-toolbar {
+	margin: 8px 0 0;
+}
+
+#sidebar {
+	height: 353px;
+}
+.gray-backgr {
+	background-color: #eeeeee;
+	height: 100%;
+}
+
+.inner-sidebar {
+	padding-left: 10%;
+	padding-bottom: 20px;
+	width: 90%;
+}
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #e1e2e5;
+	border-bottom: 1px solid #ffffff;
+}
+
+#forget-password {
+	text-align: center;
+	display: inline-block;
+}
+
+#tutorial-button {
+	background-color: #76b900;
+}
+
+#login-image {
+	background-position-y: 100%;
+}
+
+#btn_login {
+    width: 45%;
+}
+#save_id {
+    width: 52%;
+}
+#login-msg {
+	/*  position: absolute;
+  top: 19%;*/
+	margin: 206px 0 0 0;
+	margin: 200px\9 0 0 0;
+	padding: 1em 1em 0 1em;
+	color: #fff;
+	opacity: 0.4;
+	opacity: 1;
+	/* Fallback for web browsers that don't support RGBa */
+	/* background-color: #000000; */
+	/* RGBa with 0.6 opacity */
+	background-color: rgba(0, 0, 0, 0.3);
+	/* For IE 5.5 - 7*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+	#forget-password {
+		text-align: center;
+		display: inline-block;
+		font-size: 13px;
+	}
+	#sidebar {
+		height: 373px;
+	}
+}
+@media screen and (min-device-width: 991px){
+	#forget-password {
+		text-align: center;
+		display: inline-block;
+		font-size: 12px;
+	}
+}

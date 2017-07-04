@@ -1,0 +1,1 @@
+﻿<link rel="icon" href="${pageContext.request.contextPath}/image/favicon.ico">
